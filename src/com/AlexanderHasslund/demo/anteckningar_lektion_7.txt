@@ -1,0 +1,53 @@
+Interface
+Abstract classes
+Uppgifter
+Eget arbete
+
+Arv -> inheritance
+Polymorfism
+
+interfaces
+abstrahering underlättardynamiskt, att ärva
+multipla klasser kan ärva
+med default metoderfrån java 8 kan vi enklare sätta upp metodersom inte behöver något arv.
+privata metoder när man jobbar med interfaces, då public konverteras till att bli privata.
+
+abstrakta klasser
+abstraktion finns även i from av metoder och klasser
+abstract nyckelord -
+extends nyckelord -
+kan definiera metoder -
+
+Varför?
+arv tillför:
+Säkerhet
+Visa upp detaljer som är relevanta
+Semantiskt design
+DRY - do not repeat yourself
+
+interface:
+Implements
+är ett nyckelord i klasser som gör så att vi instansierar en klass med ett interface som implementation
+Person kan vara interface -> student får då implements keyword, som då ärver allt
+class -> extends, fast för att införa abstrakta klasser
+
+Så
+Implements är keyword för interface
+Extends är keyword för abstract
+
+En klass kan ha multipla interfaces
+men bara extenda till en? <- dubbelkolla
+
+Interfacevisas upp som en grön cirkel med ett "I"
+    kan även heta IAnimal (I for interface)
+
+    Vanligaklasser symboliserassom en blå cirkel
+    Main har en grön pil som symboliserar start
+
+ Interfacekod -> vi behöver inte specificera visibility modifiers inuti interface
+ märk av att dessa två metoderhar ingen implementation;
+
+Varför default? - om vi vill att alla klasserska ha den nya metoder -> behöver vi skriva om det för alla klasser
+Default är ett nyckel som kan spesa en standardmetod
+-> vet vi att animal har en metod som alla metoder ska ha åtkomst till, då kör man med default
+
