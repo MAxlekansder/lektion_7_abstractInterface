@@ -11,6 +11,7 @@ abstrahering underlättardynamiskt, att ärva
 multipla klasser kan ärva
 med default metoderfrån java 8 kan vi enklare sätta upp metodersom inte behöver något arv.
 privata metoder när man jobbar med interfaces, då public konverteras till att bli privata.
+^fel
 
 abstrakta klasser
 abstraktion finns även i from av metoder och klasser
@@ -50,4 +51,34 @@ Interfacevisas upp som en grön cirkel med ett "I"
 Varför default? - om vi vill att alla klasserska ha den nya metoder -> behöver vi skriva om det för alla klasser
 Default är ett nyckel som kan spesa en standardmetod
 -> vet vi att animal har en metod som alla metoder ska ha åtkomst till, då kör man med default
+
+arv
+
+nu har vi ett unviersalt sett att kalla på vera metoder utifrån vårt interface
+
+Scope
+Private data
+User / User
+Sedan tidigare har vi kunnat begränsa åtkomst via 'scope' aka 'visibility modifiers'
+det finns såklart och som sagt andra sätt att arbeta med säkerhet också...
+
+Abstrakta klasser / abstrakt klass
+
+När vi tillför abstrahering så ingår inte bara säkerhet men också en filosofi
+
+ABSTRAKT KLASS
+konkreta metdoer
+abstrakta metoder
+ökad säkerhet
+mindre abstrakt än interface
+kan inte användas direkt för att skapa objekt
+Vi kan bara extenda från en abstrakt klass
+
+(Vi kan bara ha en abstrakt klass som den ärver ifrån)
+
+Notera att vi har en odefinierad metod med 'abstract' nyckelord!
+Märk också av att vi har en helt vanlig metod!
+
+i en abstrakt klass använder man sig av extend
+Notera 'extends'
 
